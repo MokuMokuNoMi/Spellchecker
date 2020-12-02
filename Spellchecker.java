@@ -9,8 +9,7 @@ public class Spellchecker {
 	ArrayList<String> wordList = new ArrayList<String>();
 	HashSet mySet = new HashSet();
 	//Creates a Spellchecker based on a dictionary given at creation.  dictionaryFileName is the name
-	// of the file where the dictionary is to be found.  We may assume the dictionary is a big list
-	// of words.
+	// of the file where the dictionary is to be found.  
 	public Spellchecker(String dictionaryFileName, boolean ds1) throws FileNotFoundException
 	{
 		File file = new File (dictionaryFileName);
